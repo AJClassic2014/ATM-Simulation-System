@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="ATM模拟取款机.exe" version="1.0.0.1" publicKeyToken="ce1b28bbcbe2082c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tool.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ATM模拟取款机" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ATM模拟取款机.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ATM模拟取款机.exe" size="704512">
+      <assemblyIdentity name="ATM模拟取款机" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QMtK0tDLlXALpDQ3IWE8fJAwHHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="image\1.jpg" size="49452">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Q4AZt5iJntM8czwLJTHpYXWK9JE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\2.jpg" size="342579">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CIh3G2vZgTD2rYKYLJJJPC1UjBI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\3.jpg" size="38088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p7mS4dDhj5pzSr51aDFemBw7UsM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\4.jpg" size="34493">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fuxdqrSc+X/HWwL7sFZ1LzpQFc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\5.jpg" size="121933">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oLlMRtuHmJA27hPpWUGOMWwjaTc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\6.jpg" size="232856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sv1FXQbRmqxyzt4LTxiELImS3I8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\7.jpg" size="270905">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Cc3W8NP8RYKOzwMGQriwv9XBieA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tool.ico" size="1406">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kNnasgYLaEIleRB92zXFPBwVdz8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="E=duanchuanxin1989@gmail.com, SN=2088102478695909, CN=段传鑫, OU=CA Center, O=Alipay.com Corporation" issuerKeyHash="f6f30227f00d8ca624ccc873e6b2b80ca04d8549" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eoaobURVBS6zKQT5F4wccKhQodI=</DigestValue></Reference></SignedInfo><SignatureValue>mWALDoYcR7D1iqNCe5bskkRE3V2u7pnOJlJ1rT2f444owqwzM0pnbwJcophQk9PitAIbnC4mTrAuKs+KG3n80FPH4UMEehFegrcvjBN9RTZ3ZtRCBk7X92UOdYqovdDKWABvBU8xhh8Nol0/DN+tKHXW9xWhAqB5uU/xmrrzsvY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1/Ly/8Ijuyu83R5mtJuCmP+sD5uMxcHQ7lRP/tIkwsoZWT0Uu6axGYbXYoZ8gpGZus+s2Xap0+bLWwkmnNvKFSg+Q2/FFs1dYKCCV/HnX+NLM0H0mwgPd83JTXaLAPAe3ebv+k+COFpaDE9hD3YJopHae7Zo70r6NHVqXxmWtSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2a150a8701c8c17f90429b32e0555446da8867a" Description="" Url=""><as:assemblyIdentity name="ATM模拟取款机.exe" version="1.0.0.1" publicKeyToken="ce1b28bbcbe2082c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>E=duanchuanxin1989@gmail.com, SN=2088102478695909, CN=段传鑫, OU=CA Center, O=Alipay.com Corporation</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>388U4QIQO6pZHjCnK64VRq85yeE=</DigestValue></Reference></SignedInfo><SignatureValue>blJ7s+WRKlrX+cq/ic5bMh/ssGetkDtLQxtACNY4rn9Xn86tV/i+vcHxseGvFlg86JY8CDyof+G1PeKs1BwMye0hox6JVxq5GNrxjGwXG3TE+6vibB7kCTY/Q5IZqg1FtFfbDQ74Oko+RIbJISDhWJfOtuV0e0UNGBkqC6+h2dI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1/Ly/8Ijuyu83R5mtJuCmP+sD5uMxcHQ7lRP/tIkwsoZWT0Uu6axGYbXYoZ8gpGZus+s2Xap0+bLWwkmnNvKFSg+Q2/FFs1dYKCCV/HnX+NLM0H0mwgPd83JTXaLAPAe3ebv+k+COFpaDE9hD3YJopHae7Zo70r6NHVqXxmWtSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDeDCCAuGgAwIBAgIUAvYKRlDt8Cvgvtyij7avTXRdDgAwDQYJKoZIhvcNAQEFBQAwgbExNTAzBgNVBAoeLABBAGwAaQBwAGEAeQAuAGMAbwBtACAAQwBvAHIAcABvAHIAYQB0AGkAbwBuMSswKQYDVQQLHiIATQBhAGMAaABpAG4AZQAgAEMAQQAgAEMAZQBuAHQAZQByMUswSQYDVQQDHkIAQQBsAGkAcABhAHkALgBjAG8AbQAgAEMAbwByAHAAbwByAGEAdABpAG8AbgAgAE0AYQBjAGgAaQBuAGUAIABDAEEwHhcNMTEwNDIxMDAwMDAwWhcNMTIwNDE5MjM1OTU5WjCBuzE1MDMGA1UECh4sAEEAbABpAHAAYQB5AC4AYwBvAG0AIABDAG8AcgBwAG8AcgBhAHQAaQBvAG4xGzAZBgNVBAseEgBDAEEAIABDAGUAbgB0AGUAcjEPMA0GA1UEAx4Ga7VPIJRrMSkwJwYDVQQEHiAAMgAwADgAOAAxADAAMgA0ADcAOAA2ADkANQA5ADAAOTEpMCcGCSqGSIb3DQEJARYaZHVhbmNodWFueGluMTk4OUBnbWFpbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANfy8v/CI7srvN0eZrSbgpj/rA+bjMXB0O5UT/7SJMLKGVk9FLumsRmG12KGfIKRmbrPrNl2qdPmy1sJJpzbyhUoPkNvxRbNXWCgglfx51/jSzNB9JsID3fNyU12iwDwHt3m7/pPgjhaWgxPYQ92CaKR2nu2aO9K+jR1al8ZlrUhAgMBAAGjgYAwfjAJBgNVHRMEAjAAMAsGA1UdDwQEAwIFoDBkBgNVHR8EXTBbMFmgV6BVhlNodHRwOi8vY2EuYWxpcGF5LmNvbS9wdWJsaWMvY2dpLWJpbi9pdHJ1c2NybC5wbD9DQT0wMUJBNDQ2QjA3MEIxMzZGODUxOTI2OTQ5QTY2RDQwMTANBgkqhkiG9w0BAQUFAAOBgQAgZD5VJcDs6ogO3pvh50YlF7JgbXC4pSm3uexMuDxEJ0eaYcVszKY9wUDSsnup25LfJi3le8CZcYu6Esf4bHpC5k5sbL9Oph17QsQugdM3jO9JbH4JhE2hAEhibrrOLx8wk5qCWC9tWcbzLVUKHSV/c0ensACaE+dguAiXAZh2Zg==</X509Certificate><X509Certificate>MIIDCjCCAnOgAwIBAgIQAbpEawcLE2+FGSaUmmbUATANBgkqhkiG9w0BAQUFADCBnzE3MDUGA1UECh4uAEEAbABpAGIAYQBiAGEALgBjAG8AbQAgAEMAbwByAHAAbwByAGEAdABpAG8AbjEbMBkGA1UECx4SAEMAQQAgAEMAZQBuAHQAZQByMUcwRQYDVQQDHj4AQQBsAGkAYgBhAGIAYQAuAGMAbwBtACAAQwBvAHIAcABvAHIAYQB0AGkAbwBuACAAUgBvAG8AdAAgAEMAQTAeFw0wNjAyMjIwMDAwMDBaFw0xNjAyMTkyMzU5NTlaMIGxMTUwMwYDVQQKHiwAQQBsAGkAcABhAHkALgBjAG8AbQAgAEMAbwByAHAAbwByAGEAdABpAG8AbjErMCkGA1UECx4iAE0AYQBjAGgAaQBuAGUAIABDAEEAIABDAGUAbgB0AGUAcjFLMEkGA1UEAx5CAEEAbABpAHAAYQB5AC4AYwBvAG0AIABDAG8AcgBwAG8AcgBhAHQAaQBvAG4AIABNAGEAYwBoAGkAbgBlACAAQwBBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGnTWke73SRN+Ho2ur6oAWXYR4gRiXGTBF7Uf5I1mzQCiMvemz8Z1t8QyMsEK+CUc2/PWpYWnwE2lEf+JO9H8/NxGztNtxPFgTewswDAyJl9gIw0tFxkUeg1jiDi6ryfDpTsvKHK6OooJWF9gePlZrpkW0HT+9VmIsAfTQTXF9mwIDAQABozMwMTAPBgNVHRMECDAGAQH/AgEAMAsGA1UdDwQEAwIBBjARBglghkgBhvhCAQEEBAMCAAcwDQYJKoZIhvcNAQEFBQADgYEAK5j9WbRxJq2BAM8YtUWibFEN98hgdkvPdzSu3l1CQAvHctopUBtAQdeUkNVCU8VJkQBOwjL48exFHUnMq3de802qik7qFMFgASgKB7LJyKPnsZd7D1fyyGV2B2xl3iwKtEdztYZv6KgnpHRnA2644pMhtW/z+kDZkmTtMybKxg0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
